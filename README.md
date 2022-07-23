@@ -1,2 +1,2 @@
-# Sistem-Login-C-
+# Sistem-Login-C++
 Membuat Sistem Login dengan C++

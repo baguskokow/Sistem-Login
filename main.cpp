@@ -1,29 +1,27 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
-	string username;
-	string password;
+	std::string username;
+	std::string password;
 
-	cout << "=========================\n";
-	cout << "    [---- Login ----]\n";
-	cout << "=========================";
-	cout << endl << endl << endl;
+	std::cout << "=========================\n";
+	std::cout << "    [---- Login ----]\n";
+	std::cout << "=========================";
+	std::cout << "\n\n\n";
 
-	cout << "[--- Enter Username or Email ---]\n";
-	cout << ">>> "; cin >> username;
-	cout << endl;
-	cout << "[--- Enter Your Password ---]\n";
-	cout << ">>> "; cin >> password;
-	cout << endl << endl;
+	std::cout << "[--- Enter Username or Email ---]\n";
+	std::cout << ">>> "; std::cin >> username;
+	std::cout << "\n";
+	std::cout << "[--- Enter Your Password ---]\n";
+	std::cout << ">>> "; std::cin >> password;
+	std::cout << "\n\n";
 
-	if (username == "kokow", password == "test_123") {
-		cout << "=====> Login Success <=====" << endl;
+	if (username == "baguskoko" && password == "yahahaha") {
+		std::cout << "=====> Login Success <=====\n";
 
-	} else
-		cout << "=====> Username or Password incorrect! <=====\n";
-		cout << endl;
+	} else {
+		std::cout << "=====> Username or Password incorrect! <=====\n";
+	}
 
 	return 0;
 }
